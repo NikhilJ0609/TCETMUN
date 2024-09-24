@@ -1,0 +1,62 @@
+.mun-committees {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000;
+  color: white;
+}
+
+.Headcontainer {
+  margin-bottom: 30px;
+}
+
+.committees1,
+.committees2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Default for desktop */
+  gap: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.committees2 {
+  grid-template-columns: repeat(3, 1fr); /* Three columns for the second section */
+}
+
+.committee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.symbol img {
+  width: 100px; /* Fixed width for images */
+  height: 100px; /* Fixed height for images */
+  transition: transform 0.8s ease-in-out;
+}
+
+.symbol:hover img {
+  transform: scale(1.2);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.committee p {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.committee span {
+  font-size: 0.9em;
+  color: #bbbbbb;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .committees1,
+  .committees2 {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on mobile */
+  }
+}

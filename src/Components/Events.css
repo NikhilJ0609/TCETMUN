@@ -1,0 +1,80 @@
+.mun-opening-ceremony {
+  background-color: #f4f4f4; /* Background color */
+  padding: 20px;
+  color: #333;
+  width: 100%;
+}
+
+.header {
+  background-color: #fdd835; /* Header background */
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  color: #2e3c9d; /* Heading color */
+  text-align: center; /* Center text */
+  margin: 0; /* Remove default margin */
+}
+
+.ceremony-content {
+  text-align: center; /* Center align content */
+  margin-bottom: 20px;
+}
+
+.ceremony-content p {
+  margin: 10px 0; /* Space between paragraphs */
+  font-size: 1.2em; /* Base font size */
+}
+
+/* Image gallery styles */
+.image-gallery {
+  display: flex; /* Flexbox layout */
+  justify-content: space-around; /* Space items */
+  flex-wrap: wrap; /* Allow wrapping */
+  opacity: 0; /* Start hidden for animation */
+  transform: translateY(50px); /* Start with a slight downward shift */
+  transition: opacity 1s ease, transform 1s ease; /* Smooth transition */
+}
+
+/* Active state when in view */
+.image-gallery.pop-up {
+  opacity: 1; /* Fade in */
+  transform: translateY(0); /* Move to original position */
+}
+
+.image-gallery img {
+  width: 250px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  margin: 2.5px; /* Space around images */
+  border-radius: 8px; /* Rounded corners */
+  object-fit: cover; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Scale effect on hover */
+}
+
+.image-gallery img:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .ceremony-content p {
+      font-size: 1.1em; /* Slightly smaller font size */
+  }
+
+  .image-gallery img {
+      width: 100%; /* Full width on smaller screens */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 250px; /* Cap max width */
+  }
+}
+
+@media (max-width: 480px) {
+  .header h2 {
+      font-size: 1.8em; /* Adjust heading size */
+  }
+
+  .ceremony-content p {
+      font-size: 1em; /* Further adjust paragraph size */
+  }
+}
