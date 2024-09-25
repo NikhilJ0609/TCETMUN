@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './Events.css';
 import { useInView } from 'react-intersection-observer';
 
