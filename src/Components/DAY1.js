@@ -51,11 +51,11 @@ const DAY1 = () => {
         </p>
       </div>
       <div ref={ref} className={`image-gallery ${inView ? "pop-up" : ""}`}>
-        <img src="/images/6.jpeg.jpg" alt="MUN Ceremony 1" />
-        <img src="/images/7.jpeg.jpg" alt="MUN Ceremony 2" />
-        <img src="/images/8.jpeg.jpg" alt="MUN Ceremony 3" />
-        <img src="/images/9.jpeg.jpg" alt="MUN Ceremony 4" />
-        <img src="/images/10.jpeg.jpg" alt="MUN Ceremony 5" />
+        <img src="./images/6.jpeg.jpg" alt="MUN Ceremony 1" />
+        <img src="./images/7.jpeg.jpg" alt="MUN Ceremony 2" />
+        <img src="./images/8.jpeg.jpg" alt="MUN Ceremony 3" />
+        <img src="./images/9.jpeg.jpg" alt="MUN Ceremony 4" />
+        <img src="./images/10.jpeg.jpg" alt="MUN Ceremony 5" />
       </div>
     </div>
   );

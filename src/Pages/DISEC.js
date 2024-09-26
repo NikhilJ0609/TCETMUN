@@ -55,7 +55,7 @@ const DISECPage = () => {
 
       {/* Centered Logo */}
       <LogoImage
-        src="/images/disec.webp" // Make sure this path is correct
+        src="./images/disec.webp" // Make sure this path is correct
         alt="DISEC Logo"
       />
 

@@ -55,7 +55,7 @@ const UNOOSAPage = () => {
 
       {/* Centered Logo */}
       <LogoImage
-        src="/images/UNODC.jpg" // Make sure this path is correct
+        src="./images/UNODC.jpg" // Make sure this path is correct
         alt="UNOOSA Logo"
       />
 

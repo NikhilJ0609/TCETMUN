@@ -6,7 +6,7 @@ const ProfileCardSG = () => {
     <div className="bigconatiner">
       <div className="profile-card">
         <div className="profile-image">
-          <img src="/images/SAHIL1.jpg" alt="Sahil Singh" />
+          <img src="./images/SAHIL1.jpg" alt="Sahil Singh" />
           <div className="role-tag">Secretary General</div>
         </div>
         <div className="profile-content">
@@ -45,7 +45,7 @@ const ProfileCardSG = () => {
 
       <div className="profile-card">
         <div className="profile-image">
-          <img src="/images/ZIYAN.jpg" alt="Ziyan Khan" />
+          <img src="./images/ZIYAN.jpg" alt="Ziyan Khan" />
           <div className="role-tag">Director General</div>
         </div>
         <div className="profile-content">

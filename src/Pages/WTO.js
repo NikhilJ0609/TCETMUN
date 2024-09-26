@@ -55,7 +55,7 @@ const WTOPage = () => {
 
       {/* Centered Logo */}
       <LogoImage
-        src="/images/wto.png" // Make sure this path is correct
+        src="./images/wto.png" // Make sure this path is correct
         alt="WTO Logo"
       />
 

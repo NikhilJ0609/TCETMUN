@@ -27,7 +27,7 @@ function App() {
         {/* This is your homepage that includes Hero, ProfileCard, Committees, etc. */}
         <Routes>
           <Route
-            path="/"
+            path="/TCETMUN"
             element={
               <>
                 <Hero />
@@ -44,13 +44,13 @@ function App() {
           />
 
           {/* Separate committee pages */}
-          <Route path="/Pages/UNHRC" element={<UNHRCPage />} />
-          <Route path="/Pages/DISEC" element={<DISECPage />} />
-          <Route path="/Pages/IP" element={<IPPage />} />
-          <Route path="/Pages/UNODC" element={<UNODCPage />} />
-          <Route path="/Pages/UNOOSA" element={<UNOOSAPage />} />
-          <Route path="/Pages/WHO" element={<WHOPage />} />
-          <Route path="/Pages/WTO" element={<WTOPage />} />
+          <Route path="/TCETMUN/UNHRC" element={<UNHRCPage />} />
+          <Route path="/TCETMUN/DISEC" element={<DISECPage />} />
+          <Route path="/TCETMUN/IP" element={<IPPage />} />
+          <Route path="/TCETMUN/UNODC" element={<UNODCPage />} />
+          <Route path="/TCETMUN/UNOOSA" element={<UNOOSAPage />} />
+          <Route path="/TCETMUN/WHO" element={<WHOPage />} />
+          <Route path="/TCETMUN/WTO" element={<WTOPage />} />
           {/* Add more routes for other committee pages */}
         </Routes>
       </Router>

@@ -23,11 +23,11 @@ const EVENTS = () => {
           </p>
         </div>
         <div ref={ref} className={`image-gallery ${inView ? 'pop-up' : ''}`}>
-          <img src="/images/1.jpeg.jpg" alt="MUN Ceremony 1" />
-          <img src="/images/2.jpeg.jpg" alt="MUN Ceremony 2" />
-          <img src="/images/3.jpeg.jpg" alt="MUN Ceremony 3" />
-          <img src="/images/4.jpeg.jpg" alt="MUN Ceremony 4" />
-          <img src="/images/5.jpeg.jpg" alt="MUN Ceremony 5" />
+          <img src="./images/1.jpeg.jpg" alt="MUN Ceremony 1" />
+          <img src="./images/2.jpeg.jpg" alt="MUN Ceremony 2" />
+          <img src="./images/3.jpeg.jpg" alt="MUN Ceremony 3" />
+          <img src="./images/4.jpeg.jpg" alt="MUN Ceremony 4" />
+          <img src="./images/5.jpeg.jpg" alt="MUN Ceremony 5" />
         </div>
       </div>
     </section>

@@ -89,59 +89,59 @@ const MemberRole = styled.p`
 // React Component
 const TeamSection = () => {
   const facultyMembers = [
-    { name: "Amol Sir", image: "/images/Amol.webp" },
-    { name: "Jyoti Mam", image: "/images/Jyoti.webp" },
+    { name: "Amol Sir", image: "./images/Amol.webp" },
+    { name: "Jyoti Mam", image: "./images/Jyoti.webp" },
   ];
 
   const teamMembers = [
     {
       name: "SAHIL SINGH",
-      image: "/images/SAHIL.jpg",
+      image: "./images/SAHIL.jpg",
       role: "SECRETARY GENERAL",
     },
     {
       name: "ZIYAN KHAN",
-      image: "/Images/ZIYAN.jpg",
+      image: "./images/ZIYAN.jpg",
       role: "DIRECTOR GENERAL",
     },
     {
       name: "ASTHA TIWARI",
-      image: "/Images/AdministrationHead.jpg",
+      image: "./images/AdministrationHead.jpg",
       role: "ADMINISTRATION HEAD",
     },
     {
       name: "HARSH MISHRA",
-      image: "/Images/Financehead.jpg",
+      image: "./images/Financehead.jpg",
       role: "FINANCE & HOSPITALITY HEAD",
     },
     {
       name: "AMMAR KHAN",
-      image: "/Images/Research.jpg",
+      image: "./images/Research.jpg",
       role: "RESEARCH HEAD",
     },
     {
       name: "SEHER SHARIK",
-      image: "/Images/Jointresearch.jpg",
+      image: "./images/Jointresearch.jpg",
       role: "JOINT RESEARCH HEAD",
     },
     {
       name: "DHEER SHRIVASTAVA",
-      image: "/Images/Marketing.jpg",
+      image: "./images/Marketing.jpg",
       role: "MARKETING HEAD",
     },
     {
       name: "PRATHAMESH SINGH",
-      image: "/Images/Creatives.jpg",
+      image: "./images/Creatives.jpg",
       role: "CREATIVES HEAD",
     },
     {
       name: "KHUSHI GUPTA",
-      image: "/Images/contenthead.jpg",
+      image: "./images/contenthead.jpg",
       role: "CONTENT WRITING & MAGAZINE HEAD",
     },
     {
       name: "MAANAV RAJPUT",
-      image: "/Images/Delegateaffair.jpg",
+      image: "./images/Delegateaffair.jpg",
       role: "DELEGATE AFFAIRS HEAD",
     },
   ];

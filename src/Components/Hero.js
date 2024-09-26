@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 // Styled Components
 const HeroSection = styled.section`
-  background-image: url("/images/Audi 2.jpg"); /* Your image path */
+  background-image: url("./images/Audi 2.jpg"); /* Your image path */
   background-size: cover; /* Ensures the image covers the full section */
   background-position: center;
   background-repeat: no-repeat; /* Avoids image repetition */

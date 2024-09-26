@@ -55,7 +55,7 @@ const WHOPage = () => {
 
       {/* Centered Logo */}
       <LogoImage
-        src="/images/WHO.png" // Make sure this path is correct
+        src="./images/WHO.png" // Make sure this path is correct
         alt="WHO Logo"
       />
 

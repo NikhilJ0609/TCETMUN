@@ -29,24 +29,24 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/images/facebook.svg" alt="Facebook" />
+              <img src="./images/facebook.svg" alt="Facebook" />
             </a>
             <a
               href="https://www.linkedin.com/company/tcetmun-society/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/images/linkedin.svg" alt="LinkedIn" />
+              <img src="./images/linkedin.svg" alt="LinkedIn" />
             </a>
             <a href="" target="_blank" rel="noopener noreferrer">
-              <img src="/images/instagram.svg" alt="Instagram" />
+              <img src="./images/instagram.svg" alt="Instagram" />
             </a>
             <a
               href="https://youtube.com/@tcetmunsociety7377?si=JNN9YURaOyk37adn"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/images/youtube.svg" alt="YouTube" />
+              <img src="./images/youtube.svg" alt="YouTube" />
             </a>
           </div>
           <div className="footer-map">
