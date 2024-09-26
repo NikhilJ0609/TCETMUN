@@ -55,7 +55,7 @@ const UNHRCPage = () => {
 
       {/* Centered Logo */}
       <LogoImage
-        src="./images/unhrc.jpg" // Make sure this path is correct
+        src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/unhrc.webp" // Make sure this path is correct
         alt="UNHRC Logo"
       />
 

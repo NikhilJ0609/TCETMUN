@@ -55,7 +55,7 @@ const IPPage = () => {
 
       {/* Centered Logo */}
       <LogoImage
-        src="./images/IP1.png" // Make sure this path is correct
+        src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/IP1.webp" // Make sure this path is correct
         alt="IP Logo"
       />
 

@@ -27,7 +27,7 @@ function App() {
         {/* This is your homepage that includes Hero, ProfileCard, Committees, etc. */}
         <Routes>
           <Route
-            path="/TCETMUN"
+            path={"/TCETMUN"}
             element={
               <>
                 <Hero />

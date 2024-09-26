@@ -51,11 +51,26 @@ const DAY1 = () => {
         </p>
       </div>
       <div ref={ref} className={`image-gallery ${inView ? "pop-up" : ""}`}>
-        <img src="./images/6.jpeg.jpg" alt="MUN Ceremony 1" />
-        <img src="./images/7.jpeg.jpg" alt="MUN Ceremony 2" />
-        <img src="./images/8.jpeg.jpg" alt="MUN Ceremony 3" />
-        <img src="./images/9.jpeg.jpg" alt="MUN Ceremony 4" />
-        <img src="./images/10.jpeg.jpg" alt="MUN Ceremony 5" />
+        <img
+          src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/6.webp"
+          alt="MUN Ceremony 1"
+        />
+        <img
+          src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/7.webp"
+          alt="MUN Ceremony 2"
+        />
+        <img
+          src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/8.webp"
+          alt="MUN Ceremony 3"
+        />
+        <img
+          src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/9.webp"
+          alt="MUN Ceremony 4"
+        />
+        <img
+          src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/10.webp"
+          alt="MUN Ceremony 5"
+        />
       </div>
     </div>
   );

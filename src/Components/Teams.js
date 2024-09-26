@@ -89,59 +89,59 @@ const MemberRole = styled.p`
 // React Component
 const TeamSection = () => {
   const facultyMembers = [
-    { name: "Amol Sir", image: "./images/Amol.webp" },
-    { name: "Jyoti Mam", image: "./images/Jyoti.webp" },
+    { name: "Amol Sir", image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/Amol.webp" },
+    { name: "Jyoti Mam", image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/Jyoti.webp" },
   ];
 
   const teamMembers = [
     {
       name: "SAHIL SINGH",
-      image: "./images/SAHIL.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/SAHIL.webp",
       role: "SECRETARY GENERAL",
     },
     {
       name: "ZIYAN KHAN",
-      image: "./images/ZIYAN.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/ZIYAN.webp",
       role: "DIRECTOR GENERAL",
     },
     {
       name: "ASTHA TIWARI",
-      image: "./images/AdministrationHead.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/AdministrationHead.webp",
       role: "ADMINISTRATION HEAD",
     },
     {
       name: "HARSH MISHRA",
-      image: "./images/Financehead.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/Financehead.webp",
       role: "FINANCE & HOSPITALITY HEAD",
     },
     {
       name: "AMMAR KHAN",
-      image: "./images/Research.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/Research.webp",
       role: "RESEARCH HEAD",
     },
     {
       name: "SEHER SHARIK",
-      image: "./images/Jointresearch.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/Jointresearch.webp",
       role: "JOINT RESEARCH HEAD",
     },
     {
       name: "DHEER SHRIVASTAVA",
-      image: "./images/Marketing.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/Marketing.webp",
       role: "MARKETING HEAD",
     },
     {
       name: "PRATHAMESH SINGH",
-      image: "./images/Creatives.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/Creatives.webp",
       role: "CREATIVES HEAD",
     },
     {
       name: "KHUSHI GUPTA",
-      image: "./images/contenthead.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/contenthead.webp",
       role: "CONTENT WRITING & MAGAZINE HEAD",
     },
     {
       name: "MAANAV RAJPUT",
-      image: "./images/Delegateaffair.jpg",
+      image: "https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/Delegateaffair.webp",
       role: "DELEGATE AFFAIRS HEAD",
     },
   ];

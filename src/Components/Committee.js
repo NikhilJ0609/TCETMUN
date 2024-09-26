@@ -13,32 +13,32 @@ const Committee = () => {
         {/* Committees Section */}
         <div className="committees1">
           <div className="committee">
-            <Link className="symbol" to="/Pages/UNHRC">
-              <img src={"./images/unhrc.jpg"} alt="UNHRC" />
+            <Link className="symbol" to="./UNHRC">
+              <img src={"https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/unhrc.webp"} alt="UNHRC" />
             </Link>
             <p>UNHRC</p>
             <span>United Nations Human Rights Council</span>
           </div>
 
           <div className="committee">
-            <Link className="symbol" to="/Pages/WTO">
-              <img src={"./images/wto.png"} alt="WTO" />
+            <Link className="symbol" to="./WTO">
+              <img src={"https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/wto.webp"} alt="WTO" />
             </Link>
             <p>WTO</p>
             <span>World Trade Organization</span>
           </div>
 
           <div className="committee">
-            <Link className="symbol" to="/Pages/UNODC">
-              <img src={"./images/UNODC.jpg"} alt="UNODC" />
+            <Link className="symbol" to="./UNODC">
+              <img src={"https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/UNODC.webp"} alt="UNODC" />
             </Link>
             <p>UNODC</p>
             <span>United Nations Office on Drugs and Crimes</span>
           </div>
 
           <div className="committee">
-            <Link className="symbol" to="/Pages/DISEC">
-              <img src={"./images/disec.webp"} alt="DISEC" />
+            <Link className="symbol" to="./DISEC">
+              <img src={"https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/disec.webp"} alt="DISEC" />
             </Link>
             <p>DISEC</p>
             <span>Disarmament and International Security Committee</span>
@@ -47,24 +47,24 @@ const Committee = () => {
 
         <div className="committees2">
           <div className="committee">
-            <Link className="symbol" to="/Pages/WHO">
-              <img src={"./images/WHO.png"} alt="WHO" />
+            <Link className="symbol" to="./WHO">
+              <img src={"https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/WHO.webp"} alt="WHO" />
             </Link>
             <p>WHO</p>
             <span>World Health Organization</span>
           </div>
 
           <div className="committee">
-            <Link className="symbol" to="/Pages/UNOOSA">
-              <img src={"./images/UNODC.jpg"} alt="UNOOSA" />
+            <Link className="symbol" to="./UNOOSA">
+              <img src={"https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/UNODC.webp"} alt="UNOOSA" />
             </Link>
             <p>UNOOSA</p>
             <span>United Nations Office for Outer Space Affairs</span>
           </div>
 
           <div className="committee">
-            <Link className="symbol" to="/Pages/IP">
-              <img src={"./images/IP1.png"} alt="IP" />
+            <Link className="symbol" to="./IP">
+              <img src={"https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/images/IP1.webp"} alt="IP" />
             </Link>
             <p>IP</p>
             <span>International Press</span>

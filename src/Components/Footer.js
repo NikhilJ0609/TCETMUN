@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="footer-left">
           <img
-            src="LOGO.png"
+            src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/images/LOGO.webp"
             alt="TCET MUN 2024 Logo"
             className="footer-logo"
           />
@@ -29,24 +29,36 @@ const Footer = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./images/facebook.svg" alt="Facebook" />
+              <img
+                src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/276cea945d2df57790741e4770dade32086fdb4a/images/facebook.svg"
+                alt="Facebook"
+              />
             </a>
             <a
               href="https://www.linkedin.com/company/tcetmun-society/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./images/linkedin.svg" alt="LinkedIn" />
+              <img
+                src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/276cea945d2df57790741e4770dade32086fdb4a/images/linkedin.svg"
+                alt="LinkedIn"
+              />
             </a>
             <a href="" target="_blank" rel="noopener noreferrer">
-              <img src="./images/instagram.svg" alt="Instagram" />
+              <img
+                src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/276cea945d2df57790741e4770dade32086fdb4a/images/instagram.svg"
+                alt="Instagram"
+              />
             </a>
             <a
               href="https://youtube.com/@tcetmunsociety7377?si=JNN9YURaOyk37adn"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="./images/youtube.svg" alt="YouTube" />
+              <img
+                src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/276cea945d2df57790741e4770dade32086fdb4a/images/youtube.svg"
+                alt="YouTube"
+              />
             </a>
           </div>
           <div className="footer-map">
