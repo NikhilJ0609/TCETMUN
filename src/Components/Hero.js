@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 // Styled Components
 const HeroSection = styled.section`
-  background-image: url("./images/Audi 2.jpg"); /* Your image path */
+  background-image: url("https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/main/images/audi%202.jpg"); /* Your image path */
   background-size: cover; /* Ensures the image covers the full section */
   background-position: center;
   background-repeat: no-repeat; /* Avoids image repetition */
@@ -199,7 +199,7 @@ const Hero = () => {
   return (
     <>
       <Navbar opacity={opacity} menuOpen={menuOpen}>
-        <img src="LOGO.png" alt="logo" className="logo" />
+        <img src="https://raw.githubusercontent.com/NikhilJ0609/TCETMUN/refs/heads/main/LOGO.png" alt="logo" className="logo" />
         <div className="burger-menu" onClick={toggleMenu}>
           <div></div>
           <div></div>
