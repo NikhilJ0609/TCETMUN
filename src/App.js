@@ -27,6 +27,23 @@ function App() {
         {/* This is your homepage that includes Hero, ProfileCard, Committees, etc. */}
         <Routes>
           <Route
+            path={"/"}
+            element={
+              <>
+                <Hero />
+                <ProfileCardSG />
+                <Committees />
+                <EVENTS />
+                <DAY1 />
+                <DAY2 />
+                <DAY3 />
+                <Teams />
+                <Footer />
+              </>
+            }
+          />
+
+          <Route
             path={"/TCETMUN"}
             element={
               <>
@@ -51,6 +68,14 @@ function App() {
           <Route path="/TCETMUN/UNOOSA" element={<UNOOSAPage />} />
           <Route path="/TCETMUN/WHO" element={<WHOPage />} />
           <Route path="/TCETMUN/WTO" element={<WTOPage />} />
+
+          <Route path="/UNHRC" element={<UNHRCPage />} />
+          <Route path="/DISEC" element={<DISECPage />} />
+          <Route path="/IP" element={<IPPage />} />
+          <Route path="/UNODC" element={<UNODCPage />} />
+          <Route path="/UNOOSA" element={<UNOOSAPage />} />
+          <Route path="/WHO" element={<WHOPage />} />
+          <Route path="/WTO" element={<WTOPage />} />
           {/* Add more routes for other committee pages */}
         </Routes>
       </Router>
